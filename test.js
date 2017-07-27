@@ -17,8 +17,7 @@ var user =
 	var bestMatchName = "";
 	var bestMatchObject;
 	for (var i = 0; i < friendData.length; i++){
-		var difference = user.sum - friendData[i].sum;
-		Math.abs(difference);
+		var difference = Math.abs(user.sum - friendData[i].sum);
 		if(difference < leastDifference){
 			leastDifference = difference;
 			bestMatchName = friendData[i].friendName;
