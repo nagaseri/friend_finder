@@ -177,7 +177,7 @@
 			newFriend.scores = newFriend.scores.map(function(jQueryObject){
 				return $(jQueryObject).val();
 			})
-		console.log("new friend", newFriend.scores);
+		// console.log("new friend", newFriend.scores);
 		// var currentURL = window.location.origin;
 		$.post("/api/friends", newFriend, function(err, data){
 			if(err) {
