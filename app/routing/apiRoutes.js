@@ -25,27 +25,22 @@ module.exports = function (app){
 		for (var i = 0; i < user.scores.length;  i++){
 			total += parseInt(user.scores[i]);
 		}
-		// console.log("total", total);
+
 		user.sum = total;
-		// console.log("user.sum", user.sum);
 		var leastDifference = 60;
 		var bestMatchName = "";
 		var bestMatchObject;
 		for (var i = 0; i < friendData.length; i++){
-			var difference = user.sum - friendData[i].sum;
+			var difference = Math.abs(user.sum - friendData[i].sum);
 			if(difference < leastDifference){
 				leastDifference = difference;
 				bestMatchName = friendData[i].friendName;
 				bestMatchObject = friendData[i]
-			}
 		}
-			//how to account for negative answers???
-			console.log(leastDifference, "leastDifference")
-			console.log("bestMatch", bestMatchName);
-			// console.log(bestMatchObject);
+	}
 		//push the new user input into the friendData array
 		friendData.push(user);
 		res.json(bestMatchObject);
 		}
-	});
+	);
 };

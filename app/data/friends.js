@@ -4,7 +4,7 @@
 var friendArray = [
   {
     "friendName": "Steve Rogers",
-    "friendPhoto": "_",
+    "friendPhoto": "http://nerdist.com/wp-content/uploads/2016/05/20160506_nerdistnews_capexclusive_1x1.jpg",
     "scores": [
     	5,
     	1,
@@ -21,7 +21,7 @@ var friendArray = [
   },
   {
     "friendName": "Natasha Romanoff",
-    "friendPhoto": "_",
+    "friendPhoto": "https://upload.wikimedia.org/wikipedia/en/f/f6/Scarlett_Johansson_as_Black_Widow.jpg",
     "scores": [
     	3,
     	4,
@@ -38,7 +38,7 @@ var friendArray = [
   },
   {
     "friendName": "Tony Stark",
-    "friendPhoto": "_",
+    "friendPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZdtc8QuWXtO8Tf-IZACP1cFr7N1bqkbrvi9BdPxArrnjdjhTmaw",
     "scores": [
     	2,
     	5,
@@ -55,7 +55,7 @@ var friendArray = [
   },
   {
     "friendName": "Bucky Barnes",
-    "friendPhoto": "_",
+    "friendPhoto": "https://upload.wikimedia.org/wikipedia/en/0/00/Sebastian_Stan_as_Winter_Soldier.jpg",
     "scores": [
     	3,
     	3,
@@ -72,7 +72,7 @@ var friendArray = [
   },
   {
     "friendName": "Clint Barton",
-    "friendPhoto": "_",
+    "friendPhoto": "https://vignette4.wikia.nocookie.net/theavengersmovie/images/c/c7/Clint_b.png/revision/latest?cb=20130507081403",
     "scores": [
     	5,
     	3,
@@ -89,7 +89,7 @@ var friendArray = [
   },
     {
     "friendName": "Wanda Maximoff",
-    "friendPhoto": "_",
+    "friendPhoto": "https://vignette4.wikia.nocookie.net/harrypotterfanon/images/8/8a/Wanda_Maximoff_%28Scopatore%29.jpg/revision/latest?cb=20160415013524"
     "scores": [
     	4,
     	3,
@@ -106,7 +106,7 @@ var friendArray = [
   },
     {
     "friendName": "Thor",
-    "friendPhoto": "_",
+    "friendPhoto": "http://img.wennermedia.com/social/rs-158544-thor-624-1366729764.jpg",
     "scores": [
     	5,
     	4,
@@ -123,7 +123,7 @@ var friendArray = [
   },
   {
     "friendName": "Bruce Banner",
-    "friendPhoto": "_",
+    "friendPhoto": "https://vignette3.wikia.nocookie.net/marvelmovies/images/9/9f/Imagebanner.jpg/revision/latest/top-crop/width/240/height/240?cb=20120930215320",
     "scores": [
     	3,
     	5,
