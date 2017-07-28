@@ -6,16 +6,13 @@ var friendData = require("../data/friends");
 //=================================================================================================
 // DEPENDENCIES
 //=================================================================================================
-var path = require("path");
+// var path = require("path");
 
 //=================================================================================================
 // ROUTING
 //=================================================================================================
 module.exports = function (app){
 
-	app.get("/", function(req, res){
-		res.sendFile("../public/home.html")
-	})
 	//show friend JSON when url ends with /api/friends
 	app.get("/api/friends", function(req, res){
 		res.json(friendData);
