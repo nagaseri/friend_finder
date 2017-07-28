@@ -89,7 +89,7 @@ var friendArray = [
   },
     {
     "friendName": "Wanda Maximoff",
-    "friendPhoto": "https://vignette4.wikia.nocookie.net/harrypotterfanon/images/8/8a/Wanda_Maximoff_%28Scopatore%29.jpg/revision/latest?cb=20160415013524"
+    "friendPhoto": "https://vignette4.wikia.nocookie.net/harrypotterfanon/images/8/8a/Wanda_Maximoff_%28Scopatore%29.jpg/revision/latest?cb=20160415013524",
     "scores": [
     	4,
     	3,
